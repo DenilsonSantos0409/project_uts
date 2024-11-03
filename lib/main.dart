@@ -85,7 +85,7 @@ class ProfilePage extends StatelessWidget {
                               'Universitas Pendidikan Nasional, dengan jurusan Teknologi Informasi, '
                               'yang menjadi wadah bagi saya dalam mengasah kompetensi serta '
                               'memperkaya ilmu pengetahuan di bidang teknologi.',
-                              style: TextStyle(color: Colors.grey),
+                              style: TextStyle(color: Colors.black),
                             ),
                           ],
                         ),
