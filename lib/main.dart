@@ -53,7 +53,7 @@ class ProfilePage extends StatelessWidget {
                     ),
                     SizedBox(height: 8),
                     Text(
-                      'Universitas Pendidikan Nasional',
+                      'Universitas Pendidikan Nasional\n42230020\nTEKNOLOGI INFORMASI',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 16,
