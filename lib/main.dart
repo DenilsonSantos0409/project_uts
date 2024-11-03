@@ -134,19 +134,19 @@ class ProfilePage extends StatelessWidget {
                             ),
                             SizedBox(height: 16),
                             Text(
-                              'SMA  : Externato Sao Jose Dili',
+                              'Adaptive',
                               style: TextStyle(
                                   fontSize: 18, color: Colors.grey[800]),
                             ),
                             SizedBox(height: 8),
                             Text(
-                              'SMP  : Externato Sao Jose Dili',
+                              'Quick Learner',
                               style: TextStyle(
                                   fontSize: 18, color: Colors.grey[800]),
                             ),
                             SizedBox(height: 8),
                             Text(
-                              'SMP  : Externato Sao Jose Dili',
+                              'Can work underpressure',
                               style: TextStyle(
                                   fontSize: 18, color: Colors.grey[800]),
                             ),
@@ -206,8 +206,13 @@ class SideBar extends StatelessWidget {
             title: Text('About', style: TextStyle(color: Colors.white)),
           ),
           ListTile(
-            leading: Icon(Icons.school, color: Colors.white),
-            title: Text('Pendidikan', style: TextStyle(color: Colors.white)),
+            leading: Icon(Icons.phone, color: Colors.white),
+            title: Text('Contact Information',
+                style: TextStyle(color: Colors.white)),
+          ),
+          ListTile(
+            leading: Icon(Icons.build, color: Colors.white),
+            title: Text('Kemampuan', style: TextStyle(color: Colors.white)),
           ),
           Spacer(),
           Padding(
